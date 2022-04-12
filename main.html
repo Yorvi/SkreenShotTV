@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkreenShotTV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">SkreenShotTV</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Music</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <img src="./img/profile_picture.jpg" alt="" width="200" srcset="">
+        <p class="hero__description">TVEO Music Profile</p>
+        <audio id="track">
+          <source src="./audio/ta-cabron.mp3" type="audio/mpeg" />
+        </audio>
+        <div id="player-container">
+          <div id="play-pause" class="play">Play</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-microphone-alt"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <p>TVEO is Born & Raised In New York, Grew Up In Harlem, The Westside Story Lol. Im Latino From The Dominican Republic, My Parents Came From A Place Were You Gotta Earn Your Plate & Make A Living To Survive At A Young Age & Most Important Faith In GOD Bc Without GOD We Ain’t Nothing Amen. Growing Up As A Kid I Always Loved Music My Grand Father Had His Own Band & Made His Own Music, Friends Of My Dad Use To Rehearse In Empty Apartments, I Grew Up With Music In My Soul. I Use To Be Shy When I Tried To Be An Artist But When I Released My First Single & People Around Me Started To Vibe With It & Supporting, Showing Love I Had To Keep Going !</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Music Catalog</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Ta Cabron</h2>
+          <p>TVEO x Don D Voice</p>
+          <div class="services__btn"><a href="https://youtu.be/Zeq8dhfoPTU" target="_blank">Listen on YouTube</a></div>
+        </div>
+        <div class="services__card">
+          <h2>MIRA</h2>
+          <p>TVEO</p>
+          <div class="services__btn"><a href="https://youtu.be/gGCCAfIvJ44" target="_blank">Listen on YouTube</a></div>
+        </div>
+        <div class="services__card">
+          <h2>El Deseo</h2>
+          <p>TVEO x Air Angel</p>
+          <div class="services__btn"><a href="https://youtu.be/_m7JU_8wDLw" target="_blank">Listen on YouTube</a></div>
+        </div>
+        <div class="services__card">
+          <h2>Supreme</h2>
+          <p>TVEO</p>
+          <div class="services__btn"><a href="https://youtu.be/fMXZTOU0W6c" target="_blank">Listen on YouTube</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">SkreenShotTV</a>
+          </div>
+          <p></p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/diobi.infante" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/nyfinest001/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCHpKptxV-Ar_QbzSqEwL6Yg" class="social__icon--link" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://open.spotify.com/artist/4DeI65HW9SuXyUNesXZgDF?si=WvyYN0OcRVGTNqr6IMnxJQ" class="social__icon--link" target="_blank"
+              ><i class="fab fa-spotify"></i
+            ></a>
+            <a href="https://music.apple.com/us/artist/tveo/1548030180" class="social__icon--link" target="_blank"
+              ><i class="fab fa-apple"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
